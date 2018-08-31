@@ -120,6 +120,18 @@ ul{
 	grid-template-columns: 33% 33% 33%;
 }
 
+/*	Icones de contato  */
+
+img{
+	max-width: 120px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#links-contato a{
+	text-align: center;
+}
+
 /*	Mobile	*/
 
 @media only screen and (max-width: 767px){
