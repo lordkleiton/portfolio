@@ -132,6 +132,33 @@ img{
 	text-align: center;
 }
 
+/*	Projetos completos  */
+
+.projeto-full{
+	width: 90%;
+	margin: auto;
+}
+
+.projeto-full a{
+	width: 250px;
+	position: relative;
+	left: 15px;
+}
+
+.carrossel{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	margin: auto;
+	text-align: center;
+	width: 90%
+}
+
+.carrossel a{
+	text-align: center;
+	left: 0;
+	width: 100%;
+}
+
 /*	Mobile	*/
 
 @media only screen and (max-width: 767px){
@@ -149,5 +176,10 @@ img{
 		position: initial;
 		width: 100%;
 		text-align: center;
+	}
+
+	.carrossel{
+		display: grid;
+		grid-template-columns: 50% 50%;
 	}
 }
